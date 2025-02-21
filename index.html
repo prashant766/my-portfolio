@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="running-text">
+            HI MY NAME IS PRASHANT PATHAK
+        </div>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm a developer passionate about creating amazing projects.</p>
+        <!-- 3D Rotating Block -->
+        <div class="rotating-block">
+            <div class="face front">HTML</div>
+            <div class="face back">CSS</div>
+            <div class="face left">JS</div>
+            <div class="face right">SQL</div>
+            <div class="face top">WEB DEVELOPER</div>
+            <div class="face bottom">WEB</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <!-- Project 1: Student Result Management System -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Student Result Management System</h3>
+                        <p>A system to manage student results efficiently.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Click below to view the project.</p>
+                        <a href="https://prashant766.github.io/student-result-management-system/" target="_blank" class="view-project-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Virtual Resume Builder -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Virtual Resume Builder</h3>
+                        <p>Build your resume online with ease.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Click below to view the project.</p>
+                        <a href="https://prashant766.github.io/RESUME-BUILDER/" target="_blank" class="view-project-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: Stopwatch -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Stopwatch</h3>
+                        <p>A simple and functional stopwatch.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Click below to view the project.</p>
+                        <a href="https://prashant766.github.io/STOPWATCH/" target="_blank" class="view-project-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <div class="contact-block">
+            <span id="phone-number" style="display: none;">+91 9119012564</span>
+            <span class="click-me" onclick="showPhone()">Click Me</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Prashant. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
